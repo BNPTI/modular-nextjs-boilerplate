@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 
-import { globalStyles } from "@styles/Global";
+import { globalStyles } from "@/shared/styles/Global";
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles();

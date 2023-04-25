@@ -18,22 +18,17 @@
     "paths": {
       "@assets/*": ["./src/assets/*"],
       "@components/*": ["./src/components/*"],
-      "@config/*": ["./src/config/*"],
+      "@config/*": ["src/shared/config/*"],
       "@constants/*": ["./src/constants/*"],
       "@context/*": ["./src/context/*"],
       "@controllers/*": ["./src/controllers/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@modules/*": ["./src/modules/*"],
-      "@styles/*": ["./src/styles/*"],
+      "@styles/*": ["src/shared/styles/*"],
       "@utils/*": ["./src/utils/*"],
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/modules/navigation/services/TestService.tx"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
