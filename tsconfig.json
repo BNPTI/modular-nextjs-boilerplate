@@ -16,16 +16,16 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@assets/*": ["./src/assets/*"],
+      "@assets/*": ["./src/shared/assets/*"],
       "@components/*": ["./src/components/*"],
       "@config/*": ["src/shared/config/*"],
-      "@constants/*": ["./src/constants/*"],
-      "@context/*": ["./src/context/*"],
-      "@controllers/*": ["./src/controllers/*"],
-      "@hooks/*": ["./src/hooks/*"],
+      "@constants/*": ["./src/shared/constants/*"],
+      "@context/*": ["./src/shared/context/*"],
+      "@controllers/*": ["./src/shared/controllers/*"],
+      "@hooks/*": ["./src/shared/hooks/*"],
       "@modules/*": ["./src/modules/*"],
       "@styles/*": ["src/shared/styles/*"],
-      "@utils/*": ["./src/utils/*"],
+      "@utils/*": ["./src/shared/utils/*"],
       "@/*": ["./src/*"]
     }
   },
